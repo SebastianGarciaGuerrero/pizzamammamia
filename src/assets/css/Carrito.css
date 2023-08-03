@@ -1,0 +1,108 @@
+/* Estilos para el contenedor del carrito */
+.carrito-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flexbox;
+  }
+  
+  /* Estilos para el título del carrito */
+  .carrito-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para cada elemento del carrito */
+  .carrito-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .carrito-img {
+    width: 20px; /* Ajusta el tamaño de la imagen como desees */
+    height: 20px; /* Ajusta el tamaño de la imagen como desees */
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  
+  .carrito-item-info {
+    flex: 1;
+  }
+  
+  .carrito-item-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .carrito-item-price {
+    font-size: 18px;
+    color: #28a745; /* Texto verde para el precio */
+    margin-bottom: 5px;
+  }
+  
+  .carrito-item-quantity {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .carrito-item-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Estilos para los botones del carrito */
+  .btn-remove {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .btn-remove:hover {
+    background-color: #c82333;
+  }
+  
+  .btn-add {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-add:hover {
+    background-color: #218838;
+  }
+  
+  /* Estilos para el total del carrito */
+  .carrito-total {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  /* Estilos para el botón de "ir a pagar" */
+  .btn-go-to-pay {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-go-to-pay:hover {
+    background-color: #218838;
+  }
+  

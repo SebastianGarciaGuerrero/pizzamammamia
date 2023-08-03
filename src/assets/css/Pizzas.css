@@ -1,0 +1,78 @@
+.pizzas-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+}
+
+.carrito-img {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.content-column {
+  flex: 2;
+  padding: 15px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.pizza-titulo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pizza-desc {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+h6 {
+  text-align: left;
+}
+
+ul {
+  padding: 0;
+  margin-bottom: 10px;
+  list-style: none;
+  text-align: left;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+.price-and-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.pizza-precio {
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-add:hover {
+  background-color: #c82333;
+}
